@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Skills Club Demo | Live Learning Session</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap nav">
+<a href="#home" class="logo"><b>SC</b> Skills Club Demo</a>
+<nav aria-label="Main"><ul><li><a href="#why">Why join</a></li><li><a href="#learn">What you'll learn</a></li><li><a href="#curriculum">15-day plan</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+<a class="btn" href="#join" style="padding:9px 18px">Join live</a>
+</div></header>
+
+<main id="home">
+<section class="hero"><div class="wrap hero-grid">
+<div>
+<div class="live"><i></i> Live training session on Zoom, in Hindi</div>
+<h1>Degree है। अब <span>Direction</span> चाहिए।</h1>
+<p>Finished a BA, BSc, BCom, MA, MSc or MCom and wondering what comes next? This 50-minute live session helps you understand your options and pick a practical first step.</p>
+<div class="chips"><span class="chip">BA</span><span class="chip">BSc</span><span class="chip">BCom</span><span class="chip">MA</span><span class="chip">MSc</span><span class="chip">MCom</span></div>
+<a class="btn" href="#join">Join live session</a> <a class="btn ghost" href="#learn">Session details</a>
+<div class="facts"><div>Platform<b>Zoom</b></div><div>Language<b>Hindi</b></div><div>Duration<b>50 minutes</b></div></div>
+</div>
+<div class="panel" aria-label="Session countdown">
+<h3>Next live session starts in</h3>
+<div class="count" id="count"><div><b>00</b>Days</div><div><b>00</b>Hours</div><div><b>00</b>Minutes</div><div><b>00</b>Seconds</div></div>
+<ul class="ticks"><li>Niche clarity framework</li><li>Job and business direction</li><li>Live personality activity</li><li>15-day learning plan</li><li>Practical career guidance</li></ul>
+<a class="btn" href="#join" style="width:100%;text-align:center">Reserve your seat</a>
+</div>
+</div></section>
+
+<section id="why"><div class="wrap">
+<h2>After the degree, the big question is: what now?</h2>
+<p>Your qualification is the starting point. The right direction, practical skills and self-awareness make the next step easier to choose.</p>
+<div class="grid3">
+<div class="panel"><h3>Career confusion</h3><p>Job, business, freelancing or skill-building: plenty of options, but no clear direction.</p></div>
+<div class="panel"><h3>Niche clarity</h3><p>Connect your education, interests and strengths to real career possibilities.</p></div>
+<div class="panel"><h3>Practical growth</h3><p>A 15-day journey to start building communication, digital and professional skills.</p></div>
+</div></div></section>
+
+<section id="learn"><div class="wrap learn">
+<div>
+<h2>From niche clarity to career clarity</h2>
+<p>The session doesn't push one career on you. It helps you look at your options in a structured way and decide your next step.</p>
+<blockquote>You don't have to decide your whole life today. You only need to understand the next right step.</blockquote>
+</div>
+<ol class="topics" style="padding:0">
+<li><b>What is a niche?</b><span>Career and business niches, explained with simple examples.</span></li>
+<li><b>Know your strengths</b><span>Reflect on your interests and how you like to work.</span></li>
+<li><b>Job or business?</b><span>Compare pathways and ask the questions that matter to you.</span></li>
+<li><b>Digital and modern work</b><span>The digital basics today's workplaces expect.</span></li>
+<li><b>Your 15-day roadmap</b><span>Learn, practice and review, step by step.</span></li>
+</ol>
+</div></section>
+
+<section id="quiz"><div class="wrap">
+<div class="panel" style="max-width:720px;margin:auto">
+<h2>Where does your working style lean?</h2>
+<p class="small">A self-reflection activity. No answer is right or wrong.</p>
+<p style="color:var(--ink)"><b>You get a new task. What do you do first?</b></p>
+<div class="quiz-opts" id="opts"></div>
+<div id="result" role="status" aria-live="polite"></div>
+<p class="small">This is not a formal psychological assessment or career diagnosis.</p>
+</div></div></section>
+
+<section id="curriculum"><div class="wrap">
+<h2>Learn. Practice. Grow.</h2>
+<p>A preview of the proposed 15-day learning journey.</p>
+<div class="days" id="days"></div>
+</div></section>
+
+<section id="who"><div class="wrap">
+<h2>Who is this for?</h2>
+<div class="grid3">
+<div class="panel"><h3>Fresh graduates</h3><p>You've just finished your degree and want clarity on what's next.</p></div>
+<div class="panel"><h3>Job seekers</h3><p>You want to understand your strengths and possible directions.</p></div>
+<div class="panel"><h3>Aspiring entrepreneurs</h3><p>You want to explore business and digital work in a structured way.</p></div>
+<div class="panel"><h3>Digital skill learners</h3><p>You want to start building skills for modern workplaces.</p></div>
+<div class="panel"><h3>Communication builders</h3><p>You want more confidence in professional conversations.</p></div>
+<div class="panel"><h3>Career explorers</h3><p>You want to understand your options before choosing a path.</p></div>
+</div></div></section>
+
+<section id="join"><div class="wrap"><div class="cta">
+<h2>Don't postpone the confusion. Start the clarity.</h2>
+<p>No unrealistic promises. Just practical guidance, self-reflection and a clear learning direction.</p>
+<button class="btn" id="joinBtn">Join Skills Club live</button>
+<p class="small" id="joinMsg" style="margin-top:14px" role="status"></p>
+</div></div></section>
+
+<section id="faq"><div class="wrap" style="max-width:760px">
+<h2>Frequently asked questions</h2>
+<details><summary>Which language is the session in?</summary><p>Hindi, so the ideas stay simple and practical.</p></details>
+<details><summary>Is the session on Zoom?</summary><p>Yes. It runs live on the Zoom app, and the join buttons give you access.</p></details>
+<details><summary>Is it only for job seekers?</summary><p>No. Job seekers, aspiring entrepreneurs and digital skill learners can all benefit.</p></details>
+<details><summary>Is the personality activity a psychological test?</summary><p>No. It's an interactive self-reflection exercise, not a diagnosis.</p></details>
+<details><summary>What does the 15-day curriculum cover?</summary><p>Career clarity, self-discovery, communication, spoken English, digital basics, Zoom, telecalling, sales, personal branding, AI basics and a practical assignment.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">Demo website built for learning purposes. Not the official Skills Club site.<br>© 2026 Skills Club Demo</div></footer>
+<a class="btn sticky" href="#join">Join live</a>
+
+<script src="script.js"></script>
+</body>
+</html>
